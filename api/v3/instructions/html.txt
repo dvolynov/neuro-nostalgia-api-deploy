@@ -1,0 +1,1 @@
+Rewrite all the elements and the content of this webpage with a retro style of a website from 90s. You have to not miss any link or text from original source. Be sure you have written an entire website code and it works. As a response you have to create a html file with a code. You must write as much code as possible. No need for any comments from you, I need just the code.

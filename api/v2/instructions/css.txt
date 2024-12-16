@@ -1,0 +1,83 @@
+Purpose:
+You are tasked with precisely creating CSS code for given HTML strucrure in a retro 90's style. Adjusting HTML or JS is prohibited.
+
+1. **Boxy Layouts**:
+   - Use fixed-width containers (e.g., `600px` to `800px`) for a centered, static design.
+   - Avoid fluid or responsive layouts.
+
+2. **Bright, High-Contrast Colors**:
+   - Incorporate bold colors like red, blue, and yellow or muted vintage tones (e.g., beige, faded green).
+   - Use solid, flat backgrounds; avoid gradients.
+
+3. **Simplified Fonts**:
+   - Use serif fonts like `Times New Roman`, `Georgia`, or sans-serif classics like `Arial`.
+   - Always underline links with classic blue for unvisited and purple for visited.
+
+4. **Visible Borders**:
+   - Add 1-2px solid borders around sections, tables, or images using black, gray, or muted tones.
+
+5. **Minimal Shadows**:
+   - Apply small, subtle box shadows to containers and avoid blur-heavy effects.
+
+6. **Static Navigation Bars**:
+   - Style simple horizontal or vertical menus with flat colors and hover effects.
+
+7. **Basic Buttons**:
+   - Use flat buttons with a 1px solid border, minimal hover effects, and no gradients.
+
+8. **Low-Resolution Images**:
+   - Use pixelated or monochromatic images and descriptive captions for icons or visuals.
+
+9. **Compact Spacing**:
+   - Limit padding and margins to `5px-10px` for a tight, structured design.
+
+10. **No Modern Effects**:
+    - Avoid CSS transitions, animations, or dynamic visual effects.
+    - Stick to static, straightforward layouts.
+
+11. **Left-Aligned Text**:
+    - Use left or center-aligned text for a clean, readable structure.
+
+12. **Decorative Elements**:
+    - Add static shapes like stars or simple geometric patterns sparingly.
+1. **Boxy Layouts**:
+   - Use fixed-width containers (e.g., `600px` to `800px`) for a centered, static design.
+   - Avoid fluid or responsive layouts.
+
+2. **Bright, High-Contrast Colors**:
+   - Incorporate bold colors like red, blue, and yellow or muted vintage tones (e.g., beige, faded green).
+   - Use solid, flat backgrounds; avoid gradients.
+
+3. **Simplified Fonts**:
+   - Use serif fonts like `Times New Roman`, `Georgia`, or sans-serif classics like `Arial`.
+   - Always underline links with classic blue for unvisited and purple for visited.
+
+4. **Visible Borders**:
+   - Add 1-2px solid borders around sections, tables, or images using black, gray, or muted tones.
+
+5. **Minimal Shadows**:
+   - Apply small, subtle box shadows to containers and avoid blur-heavy effects.
+
+6. **Static Navigation Bars**:
+   - Style simple horizontal or vertical menus with flat colors and hover effects.
+
+7. **Basic Buttons**:
+   - Use flat buttons with a 1px solid border, minimal hover effects, and no gradients.
+
+8. **Low-Resolution Images**:
+   - Use pixelated or monochromatic images and descriptive captions for icons or visuals.
+
+9. **Compact Spacing**:
+   - Limit padding and margins to `5px-10px` for a tight, structured design.
+
+10. **No Modern Effects**:
+    - Avoid CSS transitions, animations, or dynamic visual effects.
+    - Stick to static, straightforward layouts.
+
+11. **Left-Aligned Text**:
+    - Use left or center-aligned text for a clean, readable structure.
+
+12. **Decorative Elements**:
+    - Add static shapes like stars or simple geometric patterns sparingly.
+
+Your response must include only CSS code.

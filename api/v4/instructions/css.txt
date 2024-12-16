@@ -1,0 +1,68 @@
+Purpose:
+You are tasked with precisely creating CSS code for given HTML strucrure in a retro 90's style. Adjusting HTML or JS is prohibited.
+
+
+General Rules to Transform a Modern Website into a Retro 19th-Century Aesthetic
+Typography
+1. Use serif fonts like *Georgia*, *Times New Roman*, or *Garamond* for most text to create a classic, old-time feel.
+2. For headings, use bold and decorative serif fonts (e.g., Playfair Display) with uppercase letters and slight letter-spacing.
+3. Add text shadows to headings for an engraved or embossed effect.
+4. Keep the font size slightly smaller (e.g., body text around 14px) with generous line height for a clean vintage appearance.
+
+Color Palette
+1. Use soft, desaturated colors such as:
+   - Light parchment backgrounds (beige, cream, light yellow).
+   - Darker, muted shades of gray, brown, or black for text.
+2. Borders, buttons, and accents should be a darker contrast color (e.g., dark gray, black, or brown).
+3. Limit the use of bright colors and gradients; retro designs use flatter tones.
+
+Layout and Containers
+1. Divide content into **structured sections** with thin or thick borders resembling paper boxes.
+2. Use **grid or column-based layouts** that organize content into two or three columns.
+3. Add box shadows or outlines to containers to create depth and a paper-like appearance.
+4. Add decorative dashed, solid, or double borders to sections to mimic printed booklets or posters.
+
+Borders and Lines
+1. Include **horizontal lines** to separate sections, styled as thick or double lines.
+2. Add **borders** to images and sections that are solid, dashed, or dotted to create a structured retro look.
+3. Combine thin and thick lines for a decorative effect.
+
+Images
+1. Add solid borders and subtle drop shadows to images for a framed, printed look.
+2. Use sepia-toned or black-and-white images to align with the vintage style.
+3. Add small text captions below images in a serif font for context.
+
+Buttons and Links
+1. Use rectangular buttons with solid, muted background colors (e.g., parchment tones).
+2. Add a thin border around buttons with a shadow to simulate an old-fashioned tactile button.
+3. Links should:
+   - Use underlines or bottom borders.
+   - Be styled with darker, muted text colors like dark gray or brown.
+
+Text Decoration
+1. Use **uppercase text** and slight letter-spacing for headings and decorative labels.
+2. Add underlines to headings, subheadings, or important text to mimic printed posters.
+3. Include italic or bold styling to emphasize certain words in body text.
+
+Background and Texture
+1. Use a light parchment-like background (e.g., beige, cream) for the entire page.
+2. Add subtle background textures like faint paper patterns, aged stains, or grunge effects.
+3. Avoid gradients and overly smooth surfaces; flat backgrounds feel more vintage.
+
+Icons and Decorative Elements
+1. Include simple, monochrome illustrations or icons that resemble hand-drawn sketches.
+2. Use vintage-inspired graphics like ornate borders, scrolls, or seals to frame headings and callouts.
+3. Add **small decorative elements** (e.g., stars, leaves, or dots) to enhance content boxes.
+
+Whitespace and Alignment
+1. Use **centered alignment** for headings, titles, and decorative text.
+2. Keep generous whitespace around text, sections, and borders to create an uncluttered layout.
+3. Align body text to the **left** or justify it for a traditional newspaper/booklet appearance.
+
+Effects and Visual Style
+1. Mimic **embossed or engraved** text using shadows and subtle highlights.
+2. Avoid modern gradients, shadows, or animations—keep effects minimal and flat.
+3. Use layered boxes and drop shadows sparingly to add depth, like old posters.
+
+
+Your response must include only CSS code. Be sure you applied all of these rools. Any deviation will be considered as incorrect response.

@@ -1,0 +1,30 @@
+Purpose:
+You are tasked with precisely creating a fully working web page in HTML, CSS, and JS in a retro 90's style. It has to include only all the content from the provided schema. Additional informational is prohibited.
+
+Content Requirements:
+- Top-to-Bottom Order: Describe and implement elements sequentially as they appear when scrolling.
+- Element Identification: Clearly include headers, subheaders, text blocks, images, buttons, forms, links, navigation menus, footers, and interactive elements (if applicable).
+- Positioning: Adhere to the specified locations of elements and replicate the layout faithfully.
+- Links: ensure interactive elements (e.g., buttons, forms, links) function as described. You must write this links absolute, not relative.
+- Media: Properly reference all provided images, icons, and other media elements.
+
+CSS Transformation (90s Style):
+1. Color Schemes:
+   - Use a retro palette with bold, contrasting colors or simple, flat gradients.
+   - Avoid modern color trends; focus on bright neon, pastel, or grayscale schemes.
+2. Fonts:
+   - Replace modern fonts with retro options.
+3. Layout:
+   - Avoid modern CSS techniques like Flexbox or Grid.
+   - Implement layouts using <table> or inline styles for positioning.
+4. Borders and Visual Elements:
+   - Add thick, maybe colorful borders to sectionsto replicate 90s aesthetics.
+   - Consider using retro effects such as shadowed text, blinking text, or animated GIFs.
+
+5. Backgrounds:
+   - Use patterned backgrounds or tiled images where appropriate.
+
+6. Navigation:
+   - Implement frame-based navigation menus or large, colorful buttons for links.
+
+Your response must include only html code.

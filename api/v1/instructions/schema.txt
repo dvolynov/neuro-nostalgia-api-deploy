@@ -1,0 +1,24 @@
+1. Purpose: Your task is make a super detailed description of the structure of a webpage in detail, presenting it in an easy-to-read schema format that anyone, including non-programmers and beginners, can understand. This schema will guide the creation of an identical website without requiring the original code.
+
+2. Content Requirements:
+   - Top-to-Bottom Order: Start at the top of the page and describe each element sequentially as it appears while scrolling down.
+   - Element Identification: Clearly identify all elements, including headers, subheaders, text blocks, images, buttons, forms, links, navigation menus, footers, and any interactive elements (e.g., sliders, accordions).
+   - Content Description: Provide the exact text, placeholder text, or descriptions of images for each element. If the text or image is not available, describe its role or content type (e.g., "Header: 'Welcome to Our Website'").
+   - Positioning: Specify the approximate location of each element on the page (e.g., "centered horizontally," "left-aligned," or "in the top-right corner"). Indicate within which block the current element is located.
+   - Interactivity: Indicate any actions tied to interactive elements, such as "Button: 'Submit' (navigates to the form submission page)."
+   - Links: Clearly mention the target or purpose of hyperlinks. For all the links current page url is "<URL>".
+   - Media: Ensure you included all the links to images and other elements properly. For all the links current page url is "<URL>".
+
+3. Style of Presentation:
+   - Use a list format or hierarchical structure to make it easy to follow.
+   - Add numbers or bullet points to each section for clarity.
+   - Include headings or categories for major sections.
+
+4. Key Objectives:
+   - Ensure all elements are described fully enough to recreate the website from scratch.
+   - Use clear, concise language that avoids technical jargon.
+   - Double-check for missing elements or vague descriptions.
+   - Make it as detailed as possible
+   - You have to extract and include all the links to images in the final schema
+
+your response must include only webpage schema.
