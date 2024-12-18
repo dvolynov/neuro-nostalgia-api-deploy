@@ -23,6 +23,6 @@ def generate_css(url, api_key, model_name, max_output_tokens, temperature):
     css = css.replace("```", "")
     css = css.replace("<style>", "")
     css = css.replace("</style>", "")
-    css = f"<style>\n{css}\n</style>"
+    css = "<style>*{border-radius: 0 !important;}" + f"\n{css}\n</style>"
 
     return css, html

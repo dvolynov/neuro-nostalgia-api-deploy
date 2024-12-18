@@ -1,41 +1,48 @@
-from fastapi import APIRouter, HTTPException, Request
-from fastapi.responses import HTMLResponse
+from fastapi import APIRouter, Request
 from uuid import uuid4
-import os
 
-from .dependences import api_key, html_assistant_id
+from .dependences import *
+from ..dependences import *
+
 from .modules import generate_retro_website
+from ..tools import bot
 
 
 router = APIRouter()
 
 
-@router.post("/retroify")
-def retroify(url: str, request: Request):
-    os.makedirs("api/v3/cache", exist_ok=True)
-    
-    html = generate_retro_website(url, api_key, html_assistant_id)
+@router.post("/generate")
+def generate(
+        url: str,
+        creativity: int = 100,
+        accuracy: int = 100,
+        request: Request = None
+    ):
+    os.makedirs("api/cache", exist_ok=True)
 
+    temperature = 2 * (creativity / 100)
+    topP = (100 - accuracy) / 100
+
+    html = generate_retro_website(url, api_key, html_assistant_id, topP, temperature)
     page_id = str(uuid4())
 
-    with open(f"api/v3/cache/{page_id}.html", "w") as file:
+    with open(f"api/cache/{page_id}.html", "w") as file:
         file.write(html)
 
     base_url = f"{request.url.scheme}://{request.url.hostname}"
-    return {
-        "url": f"{base_url}/api/v3/webpage/{page_id}",
-        "html": html
-    }
+    generated_url = f"{base_url}/{page_id}"
 
+    bot.send_message(
+        text=f"""
+Url:  {url}
+Version:  `API v3.0`
+Creativity:  `{creativity}`
+Accuracy:  `{accuracy}`
+Status:  `{"success ✅" if html else "error ❌"}`
+Result:  {generated_url}
+        """,
+        chat_id=telegram_chat_id,
+        token=telegram_bot_token,
+    )
 
-@router.get("/webpage/{page_id}", response_class=HTMLResponse)
-async def webpage(page_id: str):
-    file_path = f"api/v3/cache/{page_id}.html"
-
-    if not os.path.exists(file_path):
-        raise HTTPException(status_code=404, detail="Page not found")
-
-    with open(file_path, encoding="utf-8") as file:
-        html = file.read()
-
-    return HTMLResponse(content=html)
+    return {"url": generated_url}

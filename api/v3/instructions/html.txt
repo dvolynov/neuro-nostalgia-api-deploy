@@ -1,1 +1,109 @@
-Rewrite all the elements and the content of this webpage with a retro style of a website from 90s. You have to not miss any link or text from original source. Be sure you have written an entire website code and it works. As a response you have to create a html file with a code. You must write as much code as possible. No need for any comments from you, I need just the code.
+Purpose:
+- Create CSS code for given HTML strucrure in a retro 90's style. You have to styles all the elements on the website and make sure you did not miss anything. You are prohibited to create CSS from scratch and you strictly have to follow the content of the provided file.
+
+
+Comprehensive Rules to Transform a Website's CSS to a 90s Retro Style:
+
+1. Fonts
+   - Use `Verdana`, `Comic Sans MS`, or `Courier New` for retro appeal.
+   - Body text: `12px` or `14px`.
+   - Headings: Use bold and `ALL CAPS` for impact.
+
+2. Background
+   - Use tiled repeating backgrounds with retro images or solid bright colors (e.g., grey, light blue, white).
+   - For sections, add **bordered tables** or boxes with contrasting background colors.
+
+3. Navigation Bar
+   - Use `<table>`-based navigation layouts.
+   - Apply flat, bold buttons with sharp borders.
+   - Hover Effects: Change the background color to neon green or blue.
+
+4. Hyperlinks
+   - Default: **blue** and underlined.
+   - Hover: Change to bright red or purple.
+   - Visited: Darker purple or brown.
+
+5. Buttons
+   - Use classic `<button>` or styled `<a>` tags with a `bevel` effect using box shadows.
+   - Example:
+     ```css
+     button {
+       background: #c0c0c0;
+       border: 2px outset #808080;
+       color: #000000;
+       padding: 3px 6px;
+     }
+     ```
+
+6. Borders and Frames
+   - Add `1px` to `3px` thick solid, dashed, or grooved borders around containers.
+   - Colors: Black, grey, or neon blue.
+
+7. Images and Icons
+   - Use low-resolution or pixelated images for buttons, banners, and icons.
+   - Add small decorative GIFs like spinning animations, stars, or under-construction icons.
+
+8. Layouts
+   - Use `<table>` elements for main page structure instead of modern flexbox or grid.
+   - Fixed-width container:
+     ```css
+     .container {
+       width: 800px;
+       margin: 0 auto;
+     }
+     ```
+   - Sidebar menus: Left-aligned with bold headers.
+
+9. Text Styling
+   - Headlines: Use bold, centered, and underlined text with colors like dark blue or red.
+   - Content text: Left-aligned with generous line spacing.
+
+10. Sidebar and Lists
+   - Sidebars: Use solid blue backgrounds with white or grey text.
+   - Lists: Use square bullets or custom small icons for bullet points.
+
+11. Tables
+   - Tables: Add visible borders with alternating row colors for a striped effect.
+   - Example:
+     ```css
+     table {
+       border-collapse: collapse;
+       width: 100%;
+     }
+     td, th {
+       border: 1px solid #000;
+       padding: 5px;
+     }
+     tr:nth-child(even) {
+       background-color: #f4f4f4;
+     }
+     ```
+
+12. Animations
+   - Use `<marquee>` for scrolling text headers.
+   - Blinking text:
+     ```css
+     .blink {
+       animation: blink 1s steps(2, start) infinite;
+     }
+     @keyframes blink {
+       to {
+         visibility: hidden;
+       }
+     }
+     ```
+
+13. Footer
+   - Use centered text with small font size (`10px`).
+   - Add links styled in blue with simple separators like `|`.
+
+14. Search Bars and Forms
+   - Input fields: Flat style with white background and grey borders.
+   - Buttons: Classic rectangular buttons with beveled edges.
+
+15. Music and Media Elements
+   - Embed old-school media players using `<iframe>` or `<object>` for retro appeal.
+
+
+Be sure you applied all of these rools. Any deviation will be considered as incorrect response.
+As a response you have to create a CSS file with a code. You must write as much code as possible. No need for any comments from you, I need just the code.
