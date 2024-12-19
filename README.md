@@ -2,7 +2,7 @@
 
 This project provides a FastAPI-based solution for generating dynamic webpages, schemas, and CSS using multiple API versions, including integrations with Gemini and GPT-4o models. Each API version adds improvements such as schema generation, retro webpage generation, and CSS styling.
 
-Here is also the app itself: https://github.com/dvolynov/neuro-nostalgia-app-deploy
+Here is also the app repo: https://github.com/dvolynov/neuro-nostalgia-app-deploy
 
 ---
 
